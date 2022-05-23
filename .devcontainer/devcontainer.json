@@ -11,13 +11,12 @@
 
 	"build":{"target": "dev"},
 	
+	"onCreateCommand": "apk add --no-cache git",
+	
 	// Set *default* container specific settings.json values on container create.
 	"settings": {},
 	
 	"containerEnv": {"NODE_ENV": "development"},
-	
-	// Add the IDs of extensions you want installed when the container is created.
-	"extensions": [],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [8080, 9229],
