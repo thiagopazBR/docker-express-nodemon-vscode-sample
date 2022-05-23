@@ -7,10 +7,17 @@
 	"context": "..",
 
 	// Update the 'dockerFile' property if you aren't using the standard 'Dockerfile' filename.
+<<<<<<< HEAD
 	"dockerFile": "../Dockerfile",
 	
 	"build":{"target": "dev"},
 
+=======
+	"dockerFile": "Dockerfile",
+
+	"build":{"target": "dev"},
+	
+>>>>>>> 993ba88518afb33ff8faee72d1840e24acb31944
 	// Set *default* container specific settings.json values on container create.
 	"settings": {},
 	
@@ -19,7 +26,10 @@
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [8080, 9229]
+<<<<<<< HEAD
 
+=======
+>>>>>>> 993ba88518afb33ff8faee72d1840e24acb31944
 	// Uncomment the next line to run commands after the container is created - for example installing curl.
 	// "postCreateCommand": "apt-get update && apt-get install -y curl",
 
